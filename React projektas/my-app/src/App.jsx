@@ -12,7 +12,7 @@ function App() {
     <>
     <Navi />
     <Routes>
-      <Route path='/add' element={<Add />} />
+      <Route path='/addpost' element={<Add />} />
       <Route path='/' element={<Home />} />
       <Route path='/login' element={<Login />} />
       <Route path='/register' element={<Register />} />
